@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 180%;
+    
+    color: #000;
+    /*font-family: 'Source Sans Pro', sans-serif;*/
+}
+
+/*HEADER STYLING*/
+#header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    
+    background: #282828;
+    display:flex;
+}
+
+#header .title {
+    display: block;
+    
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    float: left;
+    color: rgb(192, 176, 176);
+}
+
+.attribute_style {
+height: 200px;
+width: 200px;
+}
+
+.italics{
+    color: rgb(207, 54, 54);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+footer{ 
+    text-align: center;
+}
+
+.img_cap{
+    width: 100%; 
+    height: 50px;
+}
+
+.main{
+    padding: 30px;
+}
+
+.navigation{
+    padding: 30px;
+}
+
+.list{
+color: blue;
+}
